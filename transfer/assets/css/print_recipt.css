@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+table {
+    border: 1px solid #000;
+    table-layout: auto !important;
+}
+th,
+tr,
+td {
+    border: 1px solid #000 !important;
+    font-weight: bold;
+  padding: 5px 5px 5px 5px !important;
+}
+
+del {
+    color: rgba(255, 45, 45, 0.995) !important;
+}
+
+hr.delete_hr {
+    border: 1.2px solid rgba(255, 45, 45, 0.995) !important;
+    border-radius: 5px;
+    margin: 10px 0;
+    opacity: 1;
+}
+
+.custom_fonts
+{
+    font-size: 18px !important;
+}
+.font_bold
+{
+    font-size:18px !important;
+    font-weight: 800 !important;
+}

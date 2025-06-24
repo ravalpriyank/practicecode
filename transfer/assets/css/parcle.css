@@ -1,0 +1,25 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.fixed_width {
+    width: 50%;
+
+}
+.font {
+    font-size: 16px !important;
+}
+.parcle_data
+{
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+.parcle_data label
+{
+    font-size: 16px !important;
+}
+.Parcel_delivery
+{
+    background-color: #B1DFBB;
+}

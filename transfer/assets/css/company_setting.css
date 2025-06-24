@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.list_group_item {
+    background-color: #fff;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    margin-bottom: 7px !important;
+    padding: 10px 0 !important;
+
+}
+
+.list-group-item h5 {
+    font-size: 16px !important;
+}
+
+.save {
+    margin-top: 85px;
+}
+
+.driver_page {
+    background-color: #fff !important;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px !important;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.branch_form {
+    background-color: #fff !important;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px !important;
+    padding: 15px !important;
+    border-radius: 10px;
+}
+
+.main_radio {
+    appearance: none;
+    outline: 1px solid #7a7fdc;
+    width: 16px;
+    height: 16px;
+    border-radius: 20px;
+    outline-offset: 3px;
+}
+
+.main_radio:checked {
+    background-color: #7a7fdc;
+
+}
+
+/* .table-bordered,
+.table-bordered td,
+.table-bordered th {
+    border: 1px solid #000 !important;
+} */
+#tbl_branch_info_wrapper {
+    overflow-x: auto;
+}
+
+td {
+    white-space: nowrap;
+}
+
+
+.parcel_table {
+    border: none !important;
+}
+
+
+.edit_icon {
+    color: #fff !important;
+    font-size: 12px !important;
+    padding: 10px !important;
+    background-color: #7a7fdc;
+    border-radius: 8px;
+    margin-bottom: 5px;
+    margin-right: 8px !important;
+}
+
+.delete_icon {
+    color: #fff !important;
+    font-size: 12px !important;
+    padding: 10px !important;
+    background-color: #7a7fdc;
+    border-radius: 8px;
+}
+
+.editor-edit {
+    padding: 10px !important;
+}
+
+.dataTables_wrapper .dataTables_filter input {
+    border: 2px solid #7a7fdc !important;
+    padding: 8px !important;
+    border-radius: 10px !important;
+    outline: none;
+}
+
+.table.dataTable {
+    border-collapse: collapse;
+}
+
+.dataTables_wrapper .dataTables_length select {
+    background-color: #7a7fdc !important;
+    padding: 5px 15px !important;
+    color: #fff !important;
+    outline: none !important;
+}
+.editor-edit
+{
+  width: 120px !important;
+}
+.member_page_table th
+{
+    border-bottom: 2px solid #e1e1e1 !important;
+    
+}
+#tbl_branch_users
+{
+    white-space: wrap !important; 
+}
+
+@media (max-width: 576px) {
+    .margin_top_mobile {
+        margin-top: 15px !important;
+    }
+
+    td {
+        white-space: wrap;
+    }
+}

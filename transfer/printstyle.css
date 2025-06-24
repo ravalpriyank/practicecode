@@ -1,0 +1,47 @@
+@media print {
+    .pagebreak {
+        page-break-before: always;
+    }
+}
+
+.tablecells {
+    vertical-align: middle;
+    border-style: solid;
+    border-color: #000;
+    border-width: 1px;
+    border-collapse: collapse;
+    font-weight: 600;
+}
+
+.partiestable {
+    font-size: 115%;
+}
+
+.tabletop {
+    vertical-align: top;
+    font-size: 85%;
+}
+
+.MainBox {
+    vertical-align: middle;
+    text-align: center;
+    font-size: 120%;
+}
+
+.morebig {
+    font-size: 120%;
+}
+
+.littlesmall {
+    font-size: 60%;
+}
+
+table {
+    border-color: #000;
+    border-collapse: collapse;
+}
+
+table th,
+table td {
+    padding: 2px;
+}

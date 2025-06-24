@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#add_product_details label {
+  padding: 5px !important;
+}
+
+
+/* relation management page css */
+
+.add_customer {
+  background-color: #fff !important;
+  padding: 15px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  border-radius: 6px;
+}
+
+label {
+  font-size: 1rem;
+}
+#sender_name-error,#receiver_name-error,#sender_no-error,#Sender_gst-error,#receiver_no-error,#receiver_gst-error
+{
+  width: 100%;
+}
+
+#senderEdit-error,#sendernumEdit-error,#senderGST-error,#reciverEdit-error,#recivernumEdit-error,#reciverGST-error
+{
+  width: 100%;
+}
+
+table.dataTable.no-footer {
+  border-bottom: 0 !important;
+  margin-bottom: 30px;
+}
+
+.dataTables_info {
+  margin-bottom: 20px;
+}
+
+.dataTables_wrapper .dataTables_length select {
+  border: 2px solid #7a7fdc !important;
+}
+
+.dataTables_wrapper .dataTables_length select:focus-visible {
+  box-shadow: none;
+  outline: none;
+}
+
+#tbl_customer_info_filter input {
+  border: 2px solid #7a7fdc !important;
+  border-radius: 10px;
+  font-size: 14px;
+  padding: 7px 10px;
+}
+
+#tbl_customer_info_filter input:focus-visible {
+  box-shadow: none;
+  outline: none;
+}
+
+.fa-edit
+{
+  padding: 8.90px;
+  background-color: #7a7fdc;
+  color: #fff;
+  border-radius: 5px;
+}
+.fa-trash
+{
+  padding: 9px !important;
+  background-color: #7a7fdc;
+  color: #fff;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+
+@media screen and (max-width:768px) {
+
+  .input-group {
+    margin-bottom: 20px;
+  }
+
+  button {
+    width: 100% !important
+  }
+}
+
+@media screen and (max-width:520px) {
+
+  .input-group {
+    margin-bottom: 20px;
+  }
+
+  button {
+    width: 100% !important
+  }
+}

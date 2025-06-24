@@ -1,0 +1,38 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.user_form
+{
+    background-color: #fff !important;
+    padding: 15px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border-radius: 6px;
+}
+.form-grup label
+{
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 5px !important;
+}
+.form-grup .user_input
+{
+    outline: none !important;
+    border: 1.2px solid #7a7fdc;
+}
+.form-grup select:focus
+{
+    box-shadow: none;
+}
+.dataTables_wrapper
+{
+    background: #fff !important;
+    padding: 10px !important;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border-radius: 6px;
+}
+table
+{
+    width: 100% !important;
+}

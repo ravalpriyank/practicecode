@@ -1,0 +1,122 @@
+
+*
+{
+    margin: 0;
+    box-sizing: border-box !important;
+    
+}
+.dataTables_wrapper .dataTables_length select
+{
+    background-color: #7a7fdc !important;
+    padding: 5px 15px !important;
+    color: #fff !important;
+    outline: none !important;
+}
+.table.dataTable>thead .sorting:after, .table.dataTable>thead .sorting_asc:after, .table.dataTable>thead .sorting_asc_disabled:after, .table.dataTable>thead .sorting_desc:after, .table.dataTable>thead .sorting_desc_disabled:after, table.dataTable>thead .sorting:after, table.dataTable>thead .sorting_asc:after, table.dataTable>thead .sorting_asc_disabled:after, table.dataTable>thead .sorting_desc:after, table.dataTable>thead .sorting_desc_disabled:after
+{
+    display: none !important;
+}
+.table.dataTable
+{
+    
+    border: 2px solid #D8D8D8;
+    padding: 15px;
+    border-radius: 10px;
+    /* background-color: #fff; */
+    margin: 15px 0 !important;
+}
+.dataTables_wrapper .dataTables_filter input
+{
+    border: 2px solid #7a7fdc !important;
+    padding: 8px !important;
+    border-radius: 10px !important;
+    outline: none ;
+}
+
+table.dataTable.no-footer
+{
+    border: none !important;
+}
+div.dataTables_wrapper div.dataTables_filter
+{
+    margin-bottom: 10px !important;
+}
+
+.custom_btn
+{ 
+  width: 70% !important;
+}
+.table
+{
+    border: none !important;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 15px 0 !important;
+}
+
+.form_lab
+{
+    font-size: 16px !important;
+    font-weight: 700;
+}
+.checkAll
+{
+    margin-right: 20px !important;
+  
+}
+.get_dispatch_detail input[type="checkbox"]
+{
+    padding: 10px !important;
+}
+
+input[type="checkbox"].checkAll, input[type="checkbox"].dcheckbox {
+    padding: 10px;
+    margin: 7px;
+    transform: scale(1.5); 
+    cursor: pointer; 
+}
+#checkAll{
+    margin-left: 14px !important;
+}
+.vehicle_no
+{
+ 
+    padding: 10px !important;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border-radius: 10px;
+}
+.table-responsive
+{
+    background-color: #fff;
+    padding: 15px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border-radius: 10px;
+}
+.btn-dispatch
+{
+    background-color:#FF0000 !important;
+    color: #fff !important;
+}
+.fetch_data
+{
+    background-color: #28a745 !important;
+}
+table.dataTable
+{
+    border-collapse: collapse !important;
+}
+table
+{
+    border: 1px solid #D8D8D8 !important;
+}
+
+@media screen and (min-device-width: 200px) and (max-device-width: 860px) { 
+
+          form
+          {
+            display: flex !important;
+            flex-direction: column !important;
+          }
+    
+}

@@ -1,0 +1,210 @@
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Gujarati:wght@100..900&display=swap');
+
+    * {
+        margin: 0;
+        box-sizing: border-box !important;
+        font-family: "Noto Sans Gujarati", sans-serif;
+    }
+
+    .Income_Details_form {
+        background-color: #fff !important;
+        padding: 15px !important;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+        border-radius: 15px !important;
+        margin-right: 5px !important;
+    }
+
+    .income_detail {
+        padding: 15px !important;
+        background-color: #fff !important;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px !important;
+        border-radius: 15px !important;
+
+    }
+
+    .tbl_income_detail {
+        width: 100% !important;
+    }
+
+    .table.dataTable>thead>tr>td:not(.sorting_disabled),
+    .table.dataTable>thead>tr>th:not(.sorting_disabled),
+    table.dataTable>thead>tr>td:not(.sorting_disabled),
+    table.dataTable>thead>tr>th:not(.sorting_disabled) {
+
+        text-align: center;
+    }
+
+    .dataTables_wrapper .dataTables_length select {
+        background-color: #7a7fdc !important;
+        padding: 5px 15px !important;
+        color: #fff !important;
+        outline: none !important;
+    }
+
+    .dataTables_wrapper .dataTables_filter input {
+        border: 2px solid #7a7fdc !important;
+        padding: 8px !important;
+        border-radius: 10px !important;
+        outline: none;
+    }
+
+    table.dataTable tbody th,
+    table.dataTable tbody td {
+        padding: 8px 1px !important;
+        border-bottom: 1px solid #D8D8D8 !important;
+        text-align: center;
+    }
+
+    table th,
+    tr {
+        border-top: 1px solid #D8D8D8 !important;
+        border-bottom: 1px solid #D8D8D8 !important;
+        padding: 5px 5px 5px 5px !important;
+        vertical-align: middle;
+    }
+
+    table.dataTable.no-footer {
+        border: none !important;
+        padding-bottom: 20px;
+    }
+
+    div.dataTables_wrapper div.dataTables_filter {
+        margin-bottom: 10px !important;
+    }
+
+    .edit_icon {
+        color: #fff !important;
+        font-size: 12px !important;
+        padding: 10px !important;
+        background-color: #7a7fdc;
+        border-radius: 8px;
+    }
+
+    .delete_icon {
+        color: #fff !important;
+        font-size: 12px !important;
+        padding: 10px !important;
+        background-color: #7a7fdc;
+        border-radius: 8px;
+        margin-left: 10px
+    }
+
+    table.dataTable.no-footer {
+        padding-top: 20px !important;
+    }
+
+    .dataTables_wrapper {
+        padding-bottom: 20px !important;
+        height: 77%;
+    }
+
+    .data_all,
+    .data_paid,
+    .data_pay,
+    .data_accoun {
+        max-height: 180px;
+        overflow-y: auto;
+    }
+
+    /* Scrollbar customization for WebKit browsers (Chrome, Safari, Edge) */
+    .data_all::-webkit-scrollbar,
+    .data_paid::-webkit-scrollbar,
+    .data_pay::-webkit-scrollbar,
+    .data_accoun::-webkit-scrollbar {
+        width: 8px;
+
+    }
+
+    .data_all::-webkit-scrollbar-track,
+    .data_paid::-webkit-scrollbar-track,
+    .data_pay::-webkit-scrollbar-track,
+    .data_accoun::-webkit-scrollbar-track {
+        background: #f1f1f1;
+    }
+
+    .data_all::-webkit-scrollbar-thumb,
+    .data_paid::-webkit-scrollbar-thumb,
+    .data_pay::-webkit-scrollbar-thumb,
+    .data_accoun::-webkit-scrollbar-thumb {
+        background-color: #898eedea;
+        border-radius: 10px;
+        height: 5px !important;
+    }
+
+    .card-header2 {
+        padding-left: 4px !important;
+        padding-right: 4px !important;
+    }
+
+    .simplebar-content1 {
+        height: 362px;
+        width: 100%;
+        overflow-y: auto;
+    }
+
+    .simplebar-content2 {
+        height: 425px;
+        width: 100%;
+    }
+    .card-body3
+    {
+        border: 1px solid  #e9e9ef;
+        height: 94%;
+    }
+
+    .activity-border:before
+    {
+        display: none;
+    }
+    .simplebar-content
+    {
+        
+        height: 345px;
+        border-top-left-radius: 0 !important;
+        border-top-right-radius: 0 !important;
+    }
+    .nav-tabs-custom .nav-item .nav-link:after
+    {
+        width: 93% !important;
+    }
+    .table-responsive
+    {
+           border-top-left-radius: 0px ;
+           border-top-right-radius: 0px ;
+           box-shadow: none;
+    }
+    .navbar-header
+    {
+        padding: 0px !important;
+    }
+
+    .heading-style
+    {
+        font-size: medium;
+    }
+
+    .receipt-body-style
+    {
+        font-size: medium;
+    }
+
+    .lrn-size
+    {
+        font-size: x-large;
+    } 
+    .add_form form 
+    {
+        background-color: #fff;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+
+    }
+
+  
+
+    @media screen and (min-device-width: 481px) and (max-device-width: 860px) {
+
+        table.dataTable tbody th,
+        table.dataTable tbody td {
+            padding: 8px 1px !important;
+        }
+    }

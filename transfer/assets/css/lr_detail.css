@@ -1,0 +1,89 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box !important;
+}
+
+
+.check_box {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 30px;
+  height: 30px;
+  border: 2px solid #7a7fdc;
+  cursor: pointer;
+  position: relative;
+  border-radius: 8px !important;
+}
+
+.check_box:checked {
+  background-color: #7a7fdc;
+}
+
+.check_box:checked::before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 2px;
+  left: 10px;
+  width: 8px;
+  height: 18px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+
+.model_inputs
+{
+  border: 1px solid #7a7fdc !important;
+  border-radius: 6px !important;
+}
+
+.section_two
+{
+    display: none !important;
+}
+
+.show_section
+{
+    display : block !important;
+    display: flex !important;
+}
+
+.hide_section
+{
+    display: none !important;
+}
+
+.modal-dialog
+{
+  max-width:650px !important ;
+  height: 500px !important;
+}
+.table-responsive
+{
+  padding: 0 !important;
+}
+.lr_table_data
+{
+  font-size: 16px !important;
+}
+.lr_table_data,tr,td,th
+{
+  text-align: start;
+  border: 1px solid #e9e9ef !important;
+}
+#sendername
+{
+    border: 1px solid #7a7fdc !important;
+}
+#receivername
+{
+  border: 1px solid #7a7fdc !important;
+}
+.icon
+   {
+    flex-wrap: wrap !important;
+   }
