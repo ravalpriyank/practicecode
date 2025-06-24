@@ -288,4 +288,10 @@
     //     }
     //     echo "<br>";
     // }
+<<<<<<< HEAD
+=======
+
+    print_r("hello world");
+  
+>>>>>>> a4f9cc34714732eac0934ebef75f955dbf9754fa
 ?>
